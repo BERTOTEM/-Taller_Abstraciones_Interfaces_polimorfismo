@@ -61,10 +61,10 @@ public class MannedSpaceship extends Spaceship {
      */
     public  String  SpacecraftReason(int X) {
         switch (X) {
-            case 0 -> System.out.println("misiones lunares");
-            case 1 -> System.out.println("Experimentación y estudio del comportamiento humano en condiciones ingrávidas y en el exterior de la cápsula ");
-            case 2 -> System.out.println("mantenimiento de satélites, probar acoplamientos con otras naves y equipos electrónicos");
-            default -> System.out.println("Mision secreta");}
+            case 0 : System.out.println("misiones lunares");
+            case 1 : System.out.println("Experimentación y estudio del comportamiento humano en condiciones ingrávidas y en el exterior de la cápsula ");
+            case 2 : System.out.println("mantenimiento de satélites, probar acoplamientos con otras naves y equipos electrónicos");
+            default : System.out.println("Mision secreta");}
         return null;
         
     }
